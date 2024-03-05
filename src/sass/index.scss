@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+$color-bg-primary: #343a40;
+$color-text-primary: #f1f3f5;
+
+$color-navlinks: #2f3033;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  // This defines what 1rem is (by default 1rem=16px)
+  font-size: 62.5%; // 10/16*100=62.5=1rem=10px
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Kode Mono", monospace;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-text-primary;
+  background-color: $color-bg-primary;
+}

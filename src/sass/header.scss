@@ -1,0 +1,48 @@
+.side-header {
+  width: 20%;
+
+  &__sidebar {
+    &-nav {
+      &-links {
+        border-radius: 1.5rem;
+        background-color: $color-grey-dark-3;
+        box-shadow: 0.3rem 1rem 2rem 0.4rem rgba(white, 0.15);
+        margin: 2rem;
+        padding: 4rem 0rem;
+
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: $color-grey-dark-2;
+        text-align: start;
+        li {
+          transition: all 0.3s ease-in-out;
+          font-weight: 600;
+          font-size: 1.2rem;
+          cursor: pointer;
+          list-style: none;
+          display: flex;
+          gap: 1.5rem;
+          padding: 1.5rem 2rem;
+          border-radius: 1.5rem;
+          ion-icon {
+            font-size: 2rem;
+            font-weight: 600;
+            color: white;
+          }
+
+          a {
+            text-decoration: none;
+            color: $color-text-primary;
+          }
+
+          &:hover {
+            background-color: $color-bg-primary;
+            transform: scale(1.01) translateX(-1rem);
+          }
+        }
+      }
+    }
+  }
+}
