@@ -1,2 +1,10 @@
 @import "./index.scss";
 @import "./header.scss";
+@import "./home.scss";
+@import "./logo.scss";
+
+.App {
+  &__header {
+    display: flex;
+  }
+}
