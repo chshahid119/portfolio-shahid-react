@@ -1,0 +1,80 @@
+.profile {
+  &__introduction {
+    // border: 1px solid white;
+
+    // background-color: orangered;
+    overflow: hidden;
+    display: flex;
+    height: 80vh;
+
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+
+    &-intro {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      &-headings {
+        h2 {
+          margin-right: 0.2rem;
+
+          font-size: 2.5rem;
+          font-weight: 900;
+
+          .blink-again {
+            animation: blink 1s infinite alternate;
+            border-right: 0.3rem solid white;
+          }
+        }
+
+        p {
+          font-size: 1.3rem;
+        }
+      }
+
+      &-social {
+        display: flex;
+        gap: 1.5rem;
+        ion-icon {
+          color: white;
+          font-size: 2rem;
+          transition: all 0.3s ease-in;
+
+          &:hover {
+            transform: scale(1.1);
+            // background-color: $color-bg-primary;
+            color: $color-hover;
+            // color: $color-bg-primary;
+          }
+        }
+      }
+    }
+
+    &-img {
+      &-div {
+        background-color: $color-bg-primary;
+        // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        img {
+          transform: translateY(10rem) scale(1.4);
+          width: 20rem;
+          border-bottom-left-radius: 100rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
