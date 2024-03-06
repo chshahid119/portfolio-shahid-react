@@ -1,0 +1,36 @@
+.filters {
+  margin-top: 2.5rem;
+  &__container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+
+    p {
+      background-color: $color-hover;
+      padding: 0.8rem;
+      font-size: 1.1rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken($color-hover, 15%);
+      }
+    }
+
+    select {
+      font-family: "Kode Mono", monospace;
+      border-radius: 0.4rem;
+      font-size: 1.2rem;
+      background-color: $color-hover;
+      outline: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+
+      &:hover {
+        background-color: darken($color-hover, 15%);
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.projects {
+  // background-color: blue;
+  padding: 1.5rem 10rem;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+
+  &__cards {
+    margin-top: 4rem;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    border: 1px solid yellow;
+    img {
+      width: 100%;
+      border: 1px solid white;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
