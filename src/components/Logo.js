@@ -9,7 +9,7 @@ function Logo() {
         <p>{CodeBracketClose}</p>
       </div>
       <div className="Logo-icons">
-        <ion-icon name="sunny-outline"></ion-icon>
+        <ion-icon name="moon-outline"></ion-icon>
       </div>
     </div>
   );
