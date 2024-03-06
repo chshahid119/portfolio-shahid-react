@@ -6,7 +6,11 @@ function Profile() {
       <div className="profile__introduction">
         <div className="profile__introduction-intro">
           <div className="profile__introduction-intro-headings">
-            <p>Hi Shahid Here!</p>
+            <p>
+              Hi <span>S</span>
+              <span>h</span> <span>a</span> <span>h</span> <span>i</span>{" "}
+              <span>d</span> Here!
+            </p>
             <h2>
               I am Front-end Developer <span className="blink-again"></span>
             </h2>
