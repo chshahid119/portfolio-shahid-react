@@ -1,13 +1,12 @@
 .projects {
   // background-color: blue;
-  padding: 1.5rem 8rem;
-  border: 1px solid white;
-  justify-content: center;
 
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   color: white;
+  padding: 1.5rem 7rem;
+  justify-content: center;
 
   &__cards {
     background-color: $color-navlinks;
@@ -15,12 +14,32 @@
     display: flex;
     width: 20%;
     flex-direction: column;
-    box-shadow: 0.3rem 1rem 1rem rgba($color-grey-dark-2, 0.14);
     border-radius: 0.7rem;
     overflow: hidden;
+    transition: all 0.5s ease-in-out;
 
     img {
       width: 100%;
+    }
+    &-intro {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      ion-icon {
+        font-size: 1.5rem;
+      }
+    }
+
+    a {
+      color: white;
+      padding: 0.3rem 2rem;
+      transition: all 0.5s ease-in-out;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      font-size: 1.5rem;
     }
 
     h2 {
@@ -40,6 +59,10 @@
         padding: 0.5rem 1rem;
         background-color: $color-bg-primary;
       }
+    }
+
+    &:hover {
+      transform: scale(1.03);
     }
   }
 }

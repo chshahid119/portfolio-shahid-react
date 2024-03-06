@@ -27,6 +27,7 @@
       color: #fff;
       cursor: pointer;
       text-align: center;
+      padding: 0.5rem;
 
       &:hover {
         background-color: darken($color-hover, 15%);

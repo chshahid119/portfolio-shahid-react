@@ -5,6 +5,7 @@ import Logo from "./components/Logo";
 import Filters from "./components/Filters";
 import Headings from "./components/Headings";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 import "./sass/App.scss";
 
@@ -16,6 +17,11 @@ function App() {
         <Header />
         <Home />
       </div>
+      <Headings>
+        <h2>Skills [What I Know]</h2>
+      </Headings>
+
+      <Skills />
       <Headings>
         <h2>Projects</h2>
       </Headings>

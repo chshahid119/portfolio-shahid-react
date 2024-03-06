@@ -2,12 +2,13 @@ export default function Filters() {
   return (
     <div className="filters">
       <div className="filters__container">
+        <p>All</p>
         <p>Recent</p>
-        <p>Front-End</p>
+        <p>Front-End UI</p>
         <p>Full-Stack</p>
         <p>Data Science</p>
         <select>
-          <option disabled selected>
+          <option defaultValue={"Select by Category"}>
             Select by Category
           </option>
           <option value="Next">Next</option>
