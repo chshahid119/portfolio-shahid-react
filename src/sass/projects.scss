@@ -1,28 +1,45 @@
 .projects {
   // background-color: blue;
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 8rem;
   border: 1px solid white;
+  justify-content: center;
+
   display: flex;
   flex-wrap: wrap;
+  gap: 1.5rem;
   color: white;
 
   &__cards {
-    margin-top: 4rem;
+    background-color: $color-navlinks;
+    margin-top: 3rem;
     display: flex;
     width: 20%;
     flex-direction: column;
-    border: 1px solid yellow;
+    box-shadow: 0.3rem 1rem 1rem rgba($color-grey-dark-2, 0.14);
+    border-radius: 0.7rem;
+    overflow: hidden;
+
     img {
       width: 100%;
-      border: 1px solid white;
     }
 
     h2 {
       color: white;
+      padding: 0.8rem 2rem;
     }
 
-    p {
-      color: white;
+    &-skillUsed {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      padding: 0.8rem 2rem;
+
+      p {
+        color: white;
+
+        padding: 0.5rem 1rem;
+        background-color: $color-bg-primary;
+      }
     }
   }
 }
