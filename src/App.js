@@ -2,6 +2,7 @@ import "./sass/App.scss";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Logo from "./components/Logo";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Home />
       </div>
+      <Projects />
     </div>
   );
 }

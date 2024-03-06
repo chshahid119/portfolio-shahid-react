@@ -1,4 +1,5 @@
 import Image from "../img/shahid.png";
+import Resume from "../img/ShahidResume.pdf";
 
 function Profile() {
   return (
@@ -8,8 +9,11 @@ function Profile() {
           <div className="profile__introduction-intro-headings">
             <p>
               Hi <span>S</span>
-              <span>h</span> <span>a</span> <span>h</span> <span>i</span>{" "}
-              <span>d</span> Here!
+              <span>H</span>
+              <span>A</span>
+              <span>H</span>
+              <span>I</span>
+              <span>D</span> Here!
             </p>
             <h2>
               I am Front-end Developer <span className="blink-again"></span>
@@ -44,6 +48,14 @@ function Profile() {
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </div>
+
+          <a
+            className="profile__introduction-intro-resume button"
+            href={Resume}
+            download="Shahid.pdf"
+          >
+            <p>Download Resume</p>
+          </a>
         </div>
         <div className="profile__introduction-img">
           <div className="profile__introduction-img-div">
