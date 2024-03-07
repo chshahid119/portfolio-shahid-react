@@ -4,15 +4,10 @@
   grid-template-columns:
     [full-start] repeat(12, [col-start] minmax(6rem, 1fr) [col-end])
     [full-end];
-  grid-template-rows: 10vh 90vh repeat(8, 30rem);
+  grid-template-rows: min-content 100vh repeat(8, 30rem);
 
   &__header {
-    // background-color: rgb(149, 149, 204);
     grid-column: full-start/full-end;
-
-    img {
-      width: 10rem;
-    }
   }
 
   &__hero {

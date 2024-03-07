@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+
+    &-logo {
+      // border: 6px solid red;
+      display: flex;
+
+      img {
+        width: 10rem;
+        background-color: $color-btn-primary-hover;
+      }
+    }
+
+    &-list {
+      &-nav {
+        &-ul {
+          display: flex;
+          gap: 1rem;
+          li {
+            list-style: none;
+            color: $color-text-primary;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

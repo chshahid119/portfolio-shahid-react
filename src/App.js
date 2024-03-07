@@ -1,10 +1,10 @@
-import Shahid from "./img/shahidOfficial.PNG";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
       <div className="App__header">
-        <img src={Shahid} alt="company logo" />
+        <Header />
       </div>
       <div className="App__hero">Hero Section</div>
       <div className="App__about">About</div>
