@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $color-sub-container;
+  font-size: 1.5rem;
   &__navbar {
     display: flex;
     justify-content: space-between;
@@ -22,12 +24,19 @@
       &-nav {
         &-ul {
           display: flex;
-          gap: 1rem;
+          gap: 1.5rem;
+
           li {
             list-style: none;
             color: $color-text-primary;
+            padding: 0.5rem;
+            display: flex;
+
             a {
               text-decoration: none;
+            }
+            &:hover {
+              background-color: rgb(134, 134, 179);
             }
           }
         }

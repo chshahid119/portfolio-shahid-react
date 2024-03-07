@@ -32,6 +32,7 @@ export default function Header() {
           </ul>
         </nav>
       </div>
+      <div className="header__navbar-icons"></div>
     </div>
   );
 }

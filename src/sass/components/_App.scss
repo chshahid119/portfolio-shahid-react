@@ -7,11 +7,13 @@
   grid-template-rows: min-content 100vh repeat(8, 30rem);
 
   &__header {
+    background-color: $color-sub-container;
     grid-column: full-start/full-end;
+    border-bottom: 0.1rem solid $color-container;
   }
 
   &__hero {
-    background-color: rgb(178, 178, 143);
+    background-color: $color-sub-container;
     grid-column: full-start/full-end;
   }
 
