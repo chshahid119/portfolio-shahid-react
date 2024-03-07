@@ -1,0 +1,70 @@
+.App {
+  background-color: $color-container;
+  display: grid;
+  grid-template-columns:
+    [full-start] repeat(12, [col-start] minmax(6rem, 1fr) [col-end])
+    [full-end];
+  grid-template-rows: 10vh 90vh repeat(8, 30rem);
+
+  &__header {
+    // background-color: rgb(149, 149, 204);
+    grid-column: full-start/full-end;
+
+    img {
+      width: 10rem;
+    }
+  }
+
+  &__hero {
+    background-color: rgb(178, 178, 143);
+    grid-column: full-start/full-end;
+  }
+
+  &__about {
+    background-color: orangered;
+    grid-column: full-start/col-start 7;
+  }
+
+  &__help {
+    background-color: aquamarine;
+    grid-column: col-start 7 / full-end;
+  }
+
+  &__experience {
+    background-color: rgb(103, 144, 180);
+    grid-column: full-start/full-end;
+  }
+
+  &__latestWork {
+    background-color: rgb(110, 170, 170);
+    grid-column: full-start/full-end;
+  }
+
+  &__skills {
+    background-color: blanchedalmond;
+    grid-column: full-start/full-end;
+  }
+
+  &__collaboration {
+    background-color: goldenrod;
+    grid-column: full-start/full-end;
+  }
+
+  &__testemonials {
+    background-color: rgb(146, 135, 110);
+    grid-column: full-start/full-end;
+  }
+  &__form {
+    background-color: rgb(130, 165, 65);
+    grid-column: full-start/full-end;
+  }
+  &__form {
+    background-color: rgb(130, 165, 65);
+    grid-column: full-start/full-end;
+  }
+
+  &__footer {
+    background-color: grey;
+    grid-column: full-start/full-end;
+  }
+}
