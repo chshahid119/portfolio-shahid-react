@@ -1,12 +1,21 @@
+import { useState } from "react";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function DarkModeEnable() {
+    setDarkMode((mode) => !mode);
+  }
   return (
     <div className="App">
       <div className="App__header">
-        <Header />
+        <Header id="home" onSetDarkMode={DarkModeEnable} mode={darkMode} />
       </div>
-      <div className="App__hero">Hero Section</div>
+      <div className="App__hero">
+        <Hero />
+      </div>
       <div className="App__about">About</div>
       <div className="App__help">How do i help?</div>
       <div className="App__experience">My work experience.</div>

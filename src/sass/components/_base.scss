@@ -36,3 +36,8 @@ body {
   line-height: 1.7;
   color: $color-text-primary;
 }
+
+.dark-mode {
+  $color-container: #495057;
+  $color-sub-container: #343a40;
+}

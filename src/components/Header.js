@@ -1,6 +1,7 @@
+import { useState } from "react";
 import logo from "../img/logoOfficial.png";
 
-export default function Header() {
+export default function Header({ onSetDarkMode, mode }) {
   return (
     <div className="header">
       <div className="header__navbar">
@@ -12,7 +13,7 @@ export default function Header() {
         <nav className="header__navbar-list-nav">
           <ul className="header__navbar-list-nav-ul">
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#">Services</a>
@@ -32,7 +33,13 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-      <div className="header__navbar-icons"></div>
+      <div className="header__navbar-icons" onClick={() => onSetDarkMode()}>
+        {mode ? (
+          <ion-icon name="sunny-outline"></ion-icon>
+        ) : (
+          <ion-icon name="moon-outline"></ion-icon>
+        )}
+      </div>
     </div>
   );
 }
