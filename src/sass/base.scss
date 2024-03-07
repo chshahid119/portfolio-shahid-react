@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 // VARIABLES
 $color-container: #f3f0ff;
 $color-sub-container: #e5dbff;
@@ -5,9 +7,30 @@ $color-sub-container: #e5dbff;
 $color-text-primary: #2e2c33;
 $color-text-primary-hover: #f2edff;
 
-$color-btn: #a099b3;
-$color-btn-hover: #b7afcc;
+$color-btn-primary: #a099b3;
+$color-btn-primary-hover: #b7afcc;
+
+$border-radius-primary: 0.5rem;
 
 // UNIVERSAL STYLES
-* {
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  // overflow: none;
+}
+
+html {
+  // This defines what 1rem is (by default 1rem=16px)
+  font-size: 62.5%; // 10/16*100=62.5=1rem=10px
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-weight: 600;
+  line-height: 1.7;
+  color: $color-text-primary;
 }
