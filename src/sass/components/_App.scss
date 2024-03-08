@@ -13,6 +13,7 @@
   }
 
   &__hero {
+    position: relative;
     background-color: $color-sub-container;
     grid-column: full-start/full-end;
   }
