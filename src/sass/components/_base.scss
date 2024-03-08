@@ -3,6 +3,7 @@
 // VARIABLES
 $color-container: #f3f0ff;
 $color-sub-container: #e5dbff;
+$color-sub-container-2: #cec5e6;
 
 $color-text-primary: #2e2c33;
 $color-text-primary-hover: #f2edff;
@@ -35,9 +36,4 @@ body {
   font-weight: 600;
   line-height: 1.7;
   color: $color-text-primary;
-}
-
-.dark-mode {
-  $color-container: #495057;
-  $color-sub-container: #343a40;
 }

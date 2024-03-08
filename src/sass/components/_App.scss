@@ -7,14 +7,16 @@
   grid-template-rows: min-content 100vh repeat(8, 30rem);
 
   &__header {
-    background-color: $color-sub-container;
     grid-column: full-start/full-end;
     border-bottom: 0.1rem solid $color-container;
   }
 
   &__hero {
-    position: relative;
-    background-color: $color-sub-container;
+    background: linear-gradient(
+      45deg,
+      $color-sub-container,
+      $color-sub-container-2
+    );
     grid-column: full-start/full-end;
   }
 
