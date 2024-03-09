@@ -22,6 +22,32 @@ export default function Hero() {
             </p>
             <h2>I'm Shahid Chaudhary!</h2>
             <p>Passionate Front-End Developer</p>
+            <div className="hero__introduction--name-socials">
+              <a
+                className="linkedin"
+                href="https://www.linkedin.com/in/shahid-chaudhary19/"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a className="github" href="https://github.com/chshahid119">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a className="twitter" href="https://twitter.com/chshahid119">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a
+                className="instagram"
+                href="https://www.instagram.com/shahid_chaudhary19/"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a
+                className="facebook"
+                href="https://www.facebook.com/shahid.rasool.58511276/"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </div>
             <a
               href={Resume}
               download="Shahid.pdf"
@@ -29,7 +55,6 @@ export default function Hero() {
             >
               Download Resume
             </a>
-            <div className="hero__introduction--name-socials"></div>
           </div>
 
           <div className="hero__introduction--image">

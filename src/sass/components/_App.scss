@@ -4,7 +4,7 @@
   grid-template-columns:
     [full-start] repeat(12, [col-start] minmax(6rem, 1fr) [col-end])
     [full-end];
-  grid-template-rows: min-content 90vh repeat(8, 30rem);
+  grid-template-rows: min-content 90vh min-content repeat(7, 30rem);
 
   &__header {
     grid-column: full-start/full-end;
@@ -22,7 +22,6 @@
   }
 
   &__about {
-    background-color: orangered;
     grid-column: full-start/col-start 7;
   }
 

@@ -47,13 +47,73 @@
         width: -moz-fit-content;
         border-radius: 0.5rem;
         font-size: 1.5rem;
+
+        &:active,
+        &:hover {
+          background-color: $color-btn-primary-hover;
+        }
+      }
+      &-socials {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        font-size: 1.5rem;
+        // padding: 1rem 0.4rem;
+
+        a {
+          display: block;
+          padding: 0.5rem;
+
+          &:active,
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        .linkedin {
+          transition: all 0.3s ease-in-out;
+          &:active,
+          &:hover {
+            color: #1d4ed8;
+          }
+        }
+
+        .github {
+          transition: all 0.3s ease-in-out;
+          &:active,
+          &:hover {
+            color: #030712;
+          }
+        }
+        .twitter {
+          transition: all 0.3s ease-in-out;
+          &:active,
+          &:hover {
+            color: #1d4ed8;
+          }
+        }
+        .instagram {
+          transition: all 0.3s ease-in-out;
+          &:active,
+          &:hover {
+            color: #ef4444;
+          }
+        }
+        .facebook {
+          transition: all 0.3s ease-in-out;
+          &:active,
+          &:hover {
+            color: #1d4ed8;
+          }
+        }
       }
     }
+
     &--image {
       animation: showUp 1s ease-out;
       img {
         // margin-top: 10rem;
         border-radius: 25rem;
+        border-right: 0.5rem solid $color-text-primary;
       }
     }
   }
