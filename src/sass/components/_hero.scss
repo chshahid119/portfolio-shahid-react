@@ -1,8 +1,67 @@
 .hero {
+  // border: 1px solid red;
+  margin: 3rem;
+  &__introduction {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1;
+
+    &--name {
+      font-size: 2rem;
+      animation: moveInLeft 1s ease-out;
+
+      // flex-grow: 1;
+
+      p {
+        color: $color-text-p;
+        font-weight: 400;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+        font-size: 1.5rem;
+
+        // animation: handAnimation 2s infinite;
+
+        // color: ;
+        span {
+          display: inline-block;
+          animation: handAnimation 2s infinite ease-in-out;
+          margin-bottom: 0.2rem;
+        }
+      }
+
+      &-btn {
+        font-weight: 400;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color: $color-btn-primary;
+        text-decoration: none;
+        color: $color-text-primary;
+        width: fit-content;
+        width: -moz-fit-content;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+      }
+    }
+    &--image {
+      animation: showUp 1s ease-out;
+      img {
+        // margin-top: 10rem;
+        border-radius: 25rem;
+      }
+    }
+  }
 }
 
 .hero_bg-dots {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 53%;
+  z-index: -1;
 }

@@ -28,7 +28,7 @@ export default function Header({ onSetDarkMode, mode }) {
               <a href="#">Skills</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="#contact">Contact Us</a>
             </li>
           </ul>
         </nav>

@@ -23,7 +23,9 @@ function App() {
       <div className="App__skills">Skills Set</div>
       <div className="App__collaboration">Team Work (FYP)</div>
       <div className="App__testemonials">Testemonials</div>
-      <div className="App__form">Contact or Email Form </div>
+      <div id="contact" className="App__form">
+        Contact or Email Form
+      </div>
       <div className="App__footer">Footer section</div>
     </div>
   );
