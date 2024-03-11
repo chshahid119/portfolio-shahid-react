@@ -4,9 +4,9 @@
   grid-template-columns:
     [full-start] repeat(12, [col-start] minmax(6rem, 1fr) [col-end])
     [full-end];
-  grid-template-rows: min-content minmax(100vh, max-content) min-content repeat(
+  grid-template-rows: min-content minmax(100vh, max-content) max-content repeat(
       7,
-      30rem
+      minmax(40rem, max-content)
     );
 
   &__header {
