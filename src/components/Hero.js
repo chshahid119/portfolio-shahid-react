@@ -20,7 +20,9 @@ export default function Hero() {
             <p>
               Hi <span className="hi-hand">👋</span>
             </p>
-            <h2>I'm Shahid Chaudhary!</h2>
+            <h2>
+              I'm <span className="Shahid">Shahid Chaudhary</span>!
+            </h2>
             <p>Passionate Front-End Developer</p>
             <div className="hero__introduction--name-socials">
               <a
@@ -65,10 +67,6 @@ export default function Hero() {
                 <a href="mailto:recipient@shahidchaudhary0729@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email">
                   shahidchaudhary0729@gmail.com
                 </a>
-              </div>
-              <div className="hero__introduction--name-contact-email">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-                <a href="tel:+923001723119">+923001723119</a>
               </div>
             </div>
             <a

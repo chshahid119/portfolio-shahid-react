@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap");
 .hero {
   // border: 1px solid red;
   margin: 10rem;
@@ -149,4 +150,15 @@
   top: 40%;
   left: 53%;
   z-index: -1;
+}
+
+.Shahid {
+  // color: #9333ea;
+  // background-color: $color-text-primary;
+  font-family: "Lobster", sans-serif;
+  color: #3b0764;
+  padding: 0.5rem 1rem;
+
+  letter-spacing: 0.3rem;
+  animation: colorChange 1s infinite ease-in-out;
 }

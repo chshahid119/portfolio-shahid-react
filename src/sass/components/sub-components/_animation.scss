@@ -1,3 +1,16 @@
+@keyframes colorChange {
+  0% {
+    color: $color-text-primary;
+  }
+  50% {
+    color: $color-text-p;
+  }
+
+  100% {
+    color: $color-text-primary;
+  }
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
