@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import WorkExp from "./components/WorkExp";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +22,9 @@ function App() {
         <About />
       </div>
       <div className="App__help">How do i help?</div>
-      <div className="App__experience">My work experience.</div>
+      <div className="App__experience">
+        <WorkExp />
+      </div>
       <div className="App__latestWork">My latest works (projects)</div>
       <div className="App__skills">Skills Set</div>
       <div className="App__collaboration">Team Work (FYP)</div>

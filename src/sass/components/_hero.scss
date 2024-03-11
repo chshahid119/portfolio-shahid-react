@@ -1,6 +1,7 @@
 .hero {
   // border: 1px solid red;
-  margin: 3rem;
+  margin: 10rem;
+
   &__introduction {
     max-width: 70vw;
     margin: auto;
@@ -104,6 +105,30 @@
           &:hover {
             color: #1d4ed8;
           }
+        }
+      }
+      &-contact {
+        display: flex;
+        gap: 0.5rem;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+
+        &-email {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          ion-icon {
+            font-size: 1.2rem;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          font-weight: 300;
+          font-size: 1rem;
+          text-decoration: underline;
         }
       }
     }

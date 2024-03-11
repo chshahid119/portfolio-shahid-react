@@ -4,7 +4,10 @@
   grid-template-columns:
     [full-start] repeat(12, [col-start] minmax(6rem, 1fr) [col-end])
     [full-end];
-  grid-template-rows: min-content 90vh min-content repeat(7, 30rem);
+  grid-template-rows: min-content minmax(100vh, max-content) min-content repeat(
+      7,
+      30rem
+    );
 
   &__header {
     grid-column: full-start/full-end;
@@ -14,7 +17,7 @@
   &__hero {
     z-index: 1000;
     background: linear-gradient(
-      45deg,
+      to right,
       $color-sub-container,
       $color-sub-container-2
     );
@@ -31,7 +34,7 @@
   }
 
   &__experience {
-    background-color: rgb(103, 144, 180);
+    // background-color: rgb(103, 144, 180);
     grid-column: full-start/full-end;
   }
 
