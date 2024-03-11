@@ -6,12 +6,16 @@ export default function WorkExp() {
       <Headings>My Working Experience</Headings>
       <div className="workExp__container">
         <ExperienceList />
-        <ExperienceList />
       </div>
     </div>
   );
 }
 
 function ExperienceList() {
-  return <>Hello</>;
+  return (
+    <div className="experience">
+      <div className="experience__timeFrame">sdfhklasjddf</div>
+      <div className="experience__role">dsfasfas</div>
+    </div>
+  );
 }

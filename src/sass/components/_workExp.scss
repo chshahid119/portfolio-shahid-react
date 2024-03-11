@@ -1,7 +1,22 @@
 .workExp {
   &__container {
     // background-color: blue;
-    width: 85vw;
+    width: 75vw;
     margin: auto;
+    border: 1px solid red;
+  }
+}
+
+.experience {
+  padding: 3rem;
+  border: 1px solid red;
+
+  margin-top: 4rem auto 0rem auto;
+  display: flex;
+  gap: 3rem;
+
+  &__timeFrame {
+    width: 50%;
+    border: 1px solid yellow;
   }
 }
